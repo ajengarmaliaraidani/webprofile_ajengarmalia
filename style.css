@@ -1,0 +1,215 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#8D7B68;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:transparent;
+    padding: 0px 5%;
+    position: fixed;
+    width: 90%;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li a {
+    margin: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 650;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .home {
+    line-height: 0px;
+    margin: 55px 0px 55px;
+  }
+  
+  .home p:nth-child(1),
+  .home p:nth-child(2){
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    color: #f3f2f2; 
+    font-size: 30px;
+  }
+
+  .home {
+    position: absolute;
+    left: 8%;
+    right: 23%;
+    top: 20%;
+    transform: translate(13%, 72%);
+    text-align: right;
+  }
+  
+  .picture {
+    width: 600px;
+    height: auto;
+    left: 30%;
+    top: -40%;
+    position: absolute;
+    transform: translate(-70%);
+}
+  
+  .about {
+    height: 45vh;
+    background-color: #C8B6A6;
+    padding: 2% 2% 10%;
+  }
+  
+  .about-desc {
+    margin: 50px 50px;
+  }
+  
+  .about-desc p:nth-child(1) {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    color: #752222;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .about-desc p:nth-child(2), 
+  .about-desc p:nth-child(3),
+  .about-desc p:nth-child(4),
+  .about-desc p:nth-child(5),
+  .about-desc p:nth-child(6){
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #0e0e0e;
+    text-align: center;
+  }
+  
+  .skill {
+    height: 35vh;
+    background-color: #A4907C;
+    padding: 2% 2% 10%;
+  }
+  
+
+  .skill-desc {
+    margin: 50px 50px;
+  }
+  
+  .skill-desc h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  .box-container {
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+    
+  }
+  
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5,
+  .box-6{
+    width: 200px;
+    height: 80px;
+    background-color: #C8B6A6;
+    color: #080808;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+
+  .project {
+    height: 65vh;
+    background-color: #C8B6A6;
+    padding: 2% 2% 10%;
+  }
+  
+  .project-desc {
+    margin: 50px 50px;
+  }
+  
+  .project-desc h1{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    color: #0f0f0f;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .polaroid {
+    width: 20%;
+    right: 60%;
+    position: absolute;
+    transform: translate(100%);
+    background-color: #8D7B68;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  .container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .container p{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #0f0f0f;
+    font-size: 20px;
+  }
+
+  .img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .fixed-footer {
+    width: 100%;
+    position: relative;
+    background:#8D7B68;
+    margin: 0 10px 10px 0;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+  }
